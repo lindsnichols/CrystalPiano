@@ -14,6 +14,9 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
+          <a href="#home">Home</a>
+        </li>
+        <li className="p__opensans">
           <a href="#calender">Studio Calender 2023</a>
         </li>
         <li className="p__opensans">
@@ -40,17 +43,20 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
+                <a href="#home">Home</a>
+              </li>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#calender">Studio Calender 2023</a>
               </li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
-                <a href="#chef">About</a>
+                <a href="#about">About</a>
               </li>
-              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
+              {/* <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#gallery">Gallery</a>
               </li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#contact">Contact</a>
-              </li>
+              </li> */}
             </ul>
           </div>
         )}

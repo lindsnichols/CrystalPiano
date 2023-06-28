@@ -10,7 +10,7 @@ const Chef = () => (
       <img src={images.chef} alt="teacher" />
     </div>
 
-    <div className="app_wrapper_info">
+    <div className="app__wrapper_info">
       <SubHeading title="About the Teacher" />
       {/* <h1 className="headtext_cormorant">What we believe in</h1> */}
       <div className="app__chef-content">
@@ -20,23 +20,21 @@ const Chef = () => (
             sladkfjlakdjflksadjfkalsdfjasdlkfjsadfl;kasdfkjsdafl;adks
           </p>
         </div> */}
-        {/* <p className="p__opensans">
-          Crystal offers private piano lessons in the Belwood neighborhoood of
-          Los Gatos.
-        </p> */}
-        {/* <p className="p__opensans">
-          She loves to teach many types of music including classical, pop,
-          blues, jazz & improvisation with leadsheets, and rock, along with the
-          theory and technique to support it.
-        </p> */}
         <p className="p__opensans">
-          She requires students to have an acoustic piano for their daily
-          practice.
+          &emsp;Crystal offers private piano lessons in the Belwood
+          neighborhoood of Los Gatos.
         </p>
+        <br></br>
         <p className="p__opensans">
-          Her main goal is to help each student find a connection to one or more
-          styles of music that they will enjoy playing for life.
-        </p>{" "}
+          &emsp;She loves to teach many types of music including classical, pop,
+          blues, jazz & improvisation with leadsheets, and rock... along with
+          the theory and technique to support it all.
+        </p>
+        <br></br>
+        <p className="p__opensans">
+          &emsp;Her wish is to help each student find a connection to one or
+          more styles of music that they will enjoy playing for life.
+        </p>
       </div>
     </div>
   </div>
