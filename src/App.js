@@ -1,21 +1,31 @@
-import React from 'react';
+import React from "react";
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
-import { Navbar } from './components';
-import './App.css';
+import {
+  Calender,
+  Chef,
+  FindUs,
+  Footer,
+  Gallery,
+  Header,
+  Intro,
+  BooksTuition,
+} from "./container";
+import { Navbar } from "./components";
+import "./App.css";
 
 const App = () => (
   <div>
     <Navbar />
-    {/* <Header />
-    <AboutUs />
-    <SpecialMenu /> 
+    <Header />
     <Chef />
-    <Intro />
+    <Calender />
+    {/* <SpecialMenu />  */}
+
+    {/* <Intro />
     <Laurels />
     <Gallery />
-    <FindUs />
-    <Footer /> */}
+    <FindUs /> */}
+    <Footer />
   </div>
 );
 
