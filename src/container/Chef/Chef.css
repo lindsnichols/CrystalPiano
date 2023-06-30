@@ -37,13 +37,19 @@
   margin-top: 3rem;
 }
 
-.listIndent {
-  margin-left: 4rem;
-}
-
-@media screen and (min-width: 2000px) {
+.listIndent @media screen and (min-width: 2000px) {
   .app__chef-sign img {
     width: 370px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #about {
+    flex-direction: column-reverse;
+  }
+
+  #crystalphoto {
+    margin: 5rem 0 0 0;
   }
 }
 

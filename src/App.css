@@ -45,7 +45,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* min-width: 50%; */
   margin-left: 5rem;
 }
 
@@ -130,6 +129,12 @@
 
   .spoon__img {
     width: 80px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .app__wrapper {
+    min-height: 85vh;
   }
 }
 

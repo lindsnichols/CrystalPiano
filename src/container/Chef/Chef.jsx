@@ -6,7 +6,10 @@ import "./Chef.css";
 
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding" id="about">
-    <div className="app__wrapper_img app__wrapper_img-reverse">
+    <div
+      className="app__wrapper_img app__wrapper_img-reverse"
+      id="crystalphoto"
+    >
       <img src={images.chef} alt="teacher" />
     </div>
 
