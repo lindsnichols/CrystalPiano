@@ -8,6 +8,13 @@
   align-items: center;
 }
 
+.flex__center_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .app__bg {
   background: url("./assets/bg.png");
   background-position: center;
@@ -24,11 +31,20 @@
   background-attachment: fixed;
 }
 
+.app__bg__hands {
+  background: url("./assets/handsonpiano.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
 .app__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
+  scroll-margin-top: 4rem;
 }
 
 .app__wrapper_info {
@@ -37,6 +53,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  scroll-margin-top: 4rem;
 }
 
 .app__wrapper_img {
@@ -46,6 +63,7 @@
   justify-content: center;
   align-items: center;
   margin-left: 5rem;
+  max-width: 600px;
 }
 
 .app__wrapper_img-reverse {
@@ -102,6 +120,14 @@
   text-transform: capitalize;
 }
 
+.subtext__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 45px;
+  line-height: 83.2px;
+  letter-spacing: 0.03em;
+}
+
 .center_text {
   text-align: center;
 }
@@ -145,6 +171,7 @@
 
   .app__wrapper_img {
     margin: 5rem 0 0 0;
+    max-width: 400px;
   }
 
   .app__wrapper_img-reverse {

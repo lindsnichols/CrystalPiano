@@ -1,0 +1,21 @@
+.app__contact {
+  background: var(--color-black);
+  padding: 2rem;
+  /* border-radius: 1rem; */
+  flex: 0.8;
+}
+
+.app__contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+  box-sizing: border-box;
+}
+
+.app__form_input {
+  background-color: var(--color-black);
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px 0.5px var(--color-white);
+}

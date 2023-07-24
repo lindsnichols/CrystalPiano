@@ -31,7 +31,7 @@ const Chef = () => (
         <p className="p__opensans">
           &emsp;She loves to teach many types of music including classical, pop,
           blues, jazz & improvisation with leadsheets, and rock... along with
-          the theory and technique to support it all.
+          the theory and technique to support it.
         </p>
         <br></br>
         <p className="p__opensans">

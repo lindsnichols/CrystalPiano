@@ -13,15 +13,28 @@ const Navbar = () => {
         <img src={images.logo} alt="app.logo" />
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans">
+        {/* <li className="p__opensans">
           <a href="#home">Home</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#calender">Studio Calender 2023</a>
-        </li>
+        </li> */}
         <li className="p__opensans">
           <a href="#about">About</a>
         </li>
+        <li className="p__opensans">
+          <a href="#calender">Calender</a>
+        </li>
+        <li className="p__opensans">
+          <a href="#lessons">Lessons</a>
+        </li>
+        <li className="p__opensans">
+          <a href="#practice">Practice</a>
+        </li>
+        <li className="p__opensans">
+          <a href="#books">Books</a>
+        </li>
+        <li className="p__opensans">
+          <a href="#contact">Contact</a>
+        </li>
+
         {/* <li className="p__opensans"><a href="#gallery">Gallery</a></li> */}
       </ul>
       <div className="app__navbar-contact">
@@ -51,12 +64,21 @@ const Navbar = () => {
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#about">About</a>
               </li>
-              {/* <li className="p__opensans" onClick={() => setToggleMenu(false)}>
-                <a href="#gallery">Gallery</a>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
+                <a href="#lessons">Lessons</a>
               </li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
-                <a href="#contact">Contact</a>
+                <a href="#practice">Practice</a>
+              </li>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
+                <a href="#books">Books</a>
+              </li>
+              {/* <li className="p__opensans" onClick={() => setToggleMenu(false)}>
+                <a href="#gallery">Gallery</a>
               </li> */}
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
+                <a href="#contact">Contact</a>
+              </li>
             </ul>
           </div>
         )}

@@ -8,6 +8,15 @@
   inset: 0;
 }
 
+.app__calender-h1 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  /* letter-spacing: 0.04em; */
+  text-transform: uppercase;
+  /* line-height: 40px;
+  font-size: 20px; */
+}
+
 .app__aboutus-overlay img {
   width: 391px;
   height: 415px;
@@ -24,15 +33,16 @@
 .app__aboutus-content_about {
   flex: 1;
   display: grid;
-  padding: 1rem;
+  padding: 2rem;
   grid-template-columns: 1fr 1fr;
   column-gap: 4rem;
-  row-gap: 1rem;
+  row-gap: 0.3rem;
   color: var(--color-golden);
 }
 
 .grid_left {
   text-align: right;
+  font-weight: 1000;
 }
 
 .grid_right {
@@ -59,6 +69,16 @@
 .app__aboutus-content_history p {
   margin: 2rem 0;
   color: var(--color-grey);
+}
+
+.p__opensans_calender {
+  font-family: var(--font-alt);
+  color: var(--color-white);
+  font-weight: 400;
+  font-style: under;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 2000px) {

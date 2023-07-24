@@ -5,7 +5,7 @@
   margin-top: 2rem;
 }
 
-.app__chef-content_quote {
+/* .app__chef-content_quote {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -15,8 +15,8 @@
   width: 47px;
   height: 40px;
   margin: 0 1rem 1rem 0;
-}
-
+} */
+/* 
 .app__chef-sign {
   width: 100%;
   margin-top: 3rem;
@@ -41,7 +41,7 @@
   .app__chef-sign img {
     width: 370px;
   }
-}
+} */
 
 @media screen and (max-width: 1150px) {
   #about {
@@ -50,11 +50,12 @@
 
   #crystalphoto {
     margin: 5rem 0 0 0;
+    max-width: 400px;
   }
 }
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
   .app__chef-sign img {
     width: 80%;
   }
-}
+} */

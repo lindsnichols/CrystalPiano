@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 import {
   Calender,
   Chef,
-  FindUs,
+  Practice,
   Footer,
   Gallery,
   Header,
   Intro,
   BooksTuition,
+  Contact,
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
@@ -19,8 +20,9 @@ const App = () => (
     <Header />
     <Chef />
     <Calender />
-    {/* <SpecialMenu />  */}
-
+    <BooksTuition />
+    <Practice />
+    <Contact />
     {/* <Intro />
     <Laurels />
     <Gallery />
