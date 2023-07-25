@@ -38,6 +38,24 @@ const Chef = () => (
           &emsp;Her wish is to help each student find a connection to one or
           more styles of music that they will enjoy playing for life.
         </p>
+        <br></br>
+        <br></br>
+        <p className="p__opensans">
+          &emsp;Crystal is active in CA Professional Music Teacher (CAPMT) SCV,
+          the local chapter of Music Teachers' National Association (
+          <a href="https://www.mtna.org/" target="_blank" rel="noreferrer">
+            MTNA
+          </a>
+          ). She served as Secretary in 2021-2023, and currently serves as
+          co-chair for MusicIN Assessments.
+        </p>
+        <p className="p__opensans">
+          &emsp;Eligible students that want to enroll in{" "}
+          <a href="https://www.mtna.org/" target="_blank" rel="noreferrer">
+            assessments and evaluations
+          </a>{" "}
+          are encouraged to.
+        </p>
       </div>
     </div>
   </div>

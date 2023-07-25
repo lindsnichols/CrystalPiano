@@ -23,13 +23,10 @@ const Navbar = () => {
           <a href="#calender">Calender</a>
         </li>
         <li className="p__opensans">
+          <a href="#tuition">Tuition</a>
+        </li>
+        <li className="p__opensans">
           <a href="#lessons">Lessons</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#practice">Practice</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#books">Books</a>
         </li>
         <li className="p__opensans">
           <a href="#contact">Contact</a>
@@ -56,22 +53,16 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
-                <a href="#home">Home</a>
-              </li>
-              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
-                <a href="#calender">Studio Calender 2023</a>
-              </li>
-              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#about">About</a>
               </li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
+                <a href="#calender">Studio Calender</a>
+              </li>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
+                <a href="#tuition">Tuition</a>
+              </li>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#lessons">Lessons</a>
-              </li>
-              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
-                <a href="#practice">Practice</a>
-              </li>
-              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
-                <a href="#books">Books</a>
               </li>
               {/* <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#gallery">Gallery</a>

@@ -1,7 +1,38 @@
-.app__wrapper_img {
+/* .app__wrapper_img {
   flex: 1;
 }
 
 .app__wrapper_info {
   flex: 1;
+} */
+
+#lessons .app__wrapper_info {
+  /* background-color: var(--color-black); */
+  border-radius: 1rem;
+  flex: 6;
+
+  /* justify-content: right; */
+}
+#lessons .app__wrapper_img {
+  /* background-color: var(--color-black); */
+  /* border-radius: 1rem; */
+  flex: 3;
+
+  /* justify-content: right; */
+}
+
+@media screen and (max-width: 950px) {
+  #lessons .app__wrapper_info {
+    /* background-color: var(--color-black); */
+    /* border-radius: 1rem; */
+    /* flex: 1; */
+    padding-bottom: 5rem;
+
+    /* justify-content: right; */
+  }
+  #lessons .app__wrapper_img {
+    flex: 0;
+    overflow: hidden;
+    margin: 0%;
+  }
 }

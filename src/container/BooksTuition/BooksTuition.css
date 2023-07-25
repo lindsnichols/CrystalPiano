@@ -1,8 +1,11 @@
-#practice .app__wrapper_info {
+#tuition .app__tuition-content {
   background-color: var(--color-black);
   padding: 2rem;
-  /* border-radius: 1rem; */
-  flex: 0.5;
+  flex: 0.6;
+}
 
-  /* justify-content: right; */
+@media screen and (max-width: 950px) {
+  #tuition .app__tuition-content {
+    flex: 0.9;
+  }
 }

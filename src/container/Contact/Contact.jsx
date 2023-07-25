@@ -7,6 +7,7 @@ import "./Contact.css";
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [referral, setReferral] = useState("");
   const [message, setMessage] = useState("");
   const [emailSent, setEmailSent] = useState(false);
 
@@ -18,6 +19,7 @@ const Contact = () => {
       const templateParams = {
         name,
         email,
+        referral,
         message,
       };
 
@@ -29,6 +31,7 @@ const Contact = () => {
       setName("");
       setEmail("");
       setMessage("");
+      setReferral("");
       setEmailSent(true);
     } else {
       alert("Please fill in all fields.");
@@ -55,13 +58,20 @@ const Contact = () => {
           <input
             className="app__form_input p__opensans"
             type="email"
-            placeholder="Your email address"
+            placeholder="Your Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
+          <input
+            className="app__form_input p__opensans"
+            type="text"
+            placeholder="How did you hear about Crystal?"
+            value={referral}
+            onChange={(e) => setReferral(e.target.value)}
+          />
           <textarea
             className="app__form_input p__opensans"
-            placeholder="Your message"
+            placeholder="Message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>

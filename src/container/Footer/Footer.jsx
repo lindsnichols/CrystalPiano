@@ -1,10 +1,9 @@
-import React from 'react';
-import { FooterOverlay } from '../../components';
-import { FiInstagram } from 'react-icons/fi';
+import React from "react";
+import { FooterOverlay } from "../../components";
+import { FiInstagram } from "react-icons/fi";
 
-
-import './Footer.css';
-import { images } from '../../constants';
+import "./Footer.css";
+import { images } from "../../constants";
 
 const Footer = () => (
   <div className="app__footer app__bg section__padding">
@@ -29,13 +28,11 @@ const Footer = () => (
         <h1 className="app__footer-headtext">Working Hours</h1>
           <p className="p__opensans">Hours</p>
       </div> */}
-
     </div>
     <div className="footer__copyright">
-      {/* <p className="p__opensans">2021 CNPiano. All Rights Reserved.</p> */}
+      <p className="p__opensans">2021 CNPiano. All Rights Reserved.</p>
     </div>
   </div>
-
 );
 
 export default Footer;
