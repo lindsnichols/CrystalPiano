@@ -3,18 +3,18 @@
 }
 
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: var(--color-golden);
 }
 
 a:active {
   text-decoration: underline;
-  color: var(--color-crimson);
+  color: var(--color-golden);
 }
 
 /* unvisited link */
 a:link {
-  color: var(--color-golden);
+  /* color: var(--color-golden); */
   text-decoration: underline;
 }
 
@@ -40,7 +40,7 @@ a:link {
 }
 
 .app__bg__piano-keys {
-  background: url("./assets/pianokeys.jpg");
+  background: url("./assets/keys.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -113,6 +113,7 @@ a:link {
   border: none;
   outline: none;
   cursor: pointer;
+  margin-top: 0.5rem;
 }
 
 .p__cormorant {

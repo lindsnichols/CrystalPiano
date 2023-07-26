@@ -1,7 +1,9 @@
 .app__contact {
   background: var(--color-black);
-  padding: 2rem;
-  /* border-radius: 1rem; */
+  padding: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: var(--border-radius);
   flex: 0.8;
 }
 
@@ -18,5 +20,10 @@
   border-radius: 3px;
   margin-bottom: 1rem;
   resize: none;
-  box-shadow: 0 0 10px 0.5px var(--color-white);
+  box-shadow: 2px 2px 9px 0.5px var(--color-white);
+}
+
+.custom__alert {
+  background-color: var(--color-black);
+  color: var(--color-white);
 }

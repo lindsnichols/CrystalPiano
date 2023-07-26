@@ -1,6 +1,7 @@
 #tuition .app__tuition-content {
   background-color: var(--color-black);
   padding: 2rem;
+  border-radius: var(--border-radius);
   flex: 0.6;
 }
 
