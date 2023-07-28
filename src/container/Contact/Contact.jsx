@@ -98,10 +98,11 @@ const Contact = () => {
       className="app__bg__hands app_wrapper section__padding flex__center"
       id="contact"
     >
-      <div className="app__contact">
-        <h1 className="app__contact_title subtext__cormorant">
+      <div className="app__contact soft__background">
+        {/* <h1 className="app__contact_title subtext__cormorant">
           Contact Crystal
-        </h1>
+        </h1> */}
+        <SubHeading title="CONTACT CRYSTAL" />
         <div className="app__contact_form p__opensans">
           <input
             className="app__form_input p__opensans"

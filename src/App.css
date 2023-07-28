@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 4rem 7rem;
 }
 
 a:hover {
@@ -47,6 +47,16 @@ a:link {
   background-attachment: fixed;
 }
 
+.app__bg__welcome {
+  background: url("./assets/welcome.jpg");
+  background-position: center;
+  background-size: cover;
+  /* filter: saturate(0); */
+
+  /* background-repeat: repeat; */
+  /* background-attachment: fixed; */
+}
+
 .app__bg__hands {
   background: url("./assets/handsonpiano.jpg");
   background-position: center;
@@ -67,7 +77,7 @@ a:link {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 20vh; */
   scroll-margin-top: 4rem;
 }
 
@@ -86,14 +96,15 @@ a:link {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 5rem;
+  margin: 1rem;
   max-width: 600px;
+  /* max-height: 00px; */
 }
 
 .app__wrapper_img-reverse {
   flex: 1;
   justify-content: flex-start;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .app__wrapper_img img {
@@ -148,6 +159,15 @@ ul {
   text-transform: capitalize;
 }
 
+.subtitle__opensans {
+  font-family: var(--font-alt);
+  color: var(--color-white);
+  font-size: 15px;
+  line-height: 22.2px;
+  letter-spacing: 0.6em;
+  text-transform: capitalize;
+}
+
 .subtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-golden);
@@ -162,6 +182,12 @@ ul {
 
 .spoon__img {
   width: 45px;
+}
+
+.soft__background {
+  background-color: var(--color-black);
+  box-shadow: 0px 0px 7px 3px var(--color-black);
+  border-radius: var(--border-radius);
 }
 
 @media screen and (min-width: 2000px) {

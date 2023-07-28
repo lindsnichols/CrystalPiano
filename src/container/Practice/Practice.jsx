@@ -22,23 +22,27 @@ const Practice = () => (
             sladkfjlakdjflksadjfkalsdfjasdlkfjsadfl;kasdfkjsdafl;adks
           </p>
         </div> */}
-        <SubHeading title="Lessons" />
+        <SubHeading title="LESSONS" />
 
         <p className="p__opensans">
-          &emsp;Weekly lessons are scheduled at a specific time for each
-          student. Students should arrive at their scheduled lesson on time, as
-          there is usually a student immediately following. Please bring all
-          lesson materials that we may use in a small tote bag. If you
-          occasionally have a conflict with the lesson, with enough advance
-          notice, we can often find an alternate lesson time for that week.
+          Weekly lessons are scheduled at a specific time for each student.
+          Students should arrive at their scheduled lesson on time, as there is
+          usually a student immediately following. Please bring all lesson
+          materials that we may use in a small tote bag.
         </p>
         <br></br>
-        <SubHeading title="Practice" />
+        <p className="p__opensans">
+          If you occasionally have a conflict with the lesson, with enough
+          advance notice, we can often find an alternate lesson time for that
+          week.
+        </p>
+        <br></br>
+        <SubHeading title="PRACTICE" />
 
         <p className="p__opensans">
-          &emsp;Students should practice on a regular basis (5 days/ week) and
-          must have an acoustic piano (with strings, not electric) in order to
-          study with Crystal.
+          Students should practice on a regular basis (5 days/ week) and must
+          have an acoustic piano (with strings, not electric) in order to study
+          with Crystal.
         </p>
         <br></br>
         <p className="p__opensans">&emsp;Recommended practice times:</p>
@@ -49,8 +53,8 @@ const Practice = () => (
         </ul>
         <br></br>
         <p className="p__opensans">
-          &emsp;Parents, please establish and gently support a regular daily
-          practice schedule.
+          Parents, please establish and gently support a regular daily practice
+          schedule.
         </p>
       </div>
     </div>

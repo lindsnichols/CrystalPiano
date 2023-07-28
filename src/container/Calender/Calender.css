@@ -9,7 +9,7 @@
   /* letter-spacing: 0.04em; */
   text-transform: uppercase;
   line-height: 40px;
-  padding-bottom: 2rem;
+  padding: 2rem;
   /* font-size: 20px; */
 }
 
@@ -25,7 +25,7 @@
   display: grid;
   /* padding: 2rem; */
   grid-template-columns: 1fr 1fr;
-  column-gap: 3rem;
+  column-gap: 2rem;
   row-gap: 1rem;
   color: var(--color-golden);
 }

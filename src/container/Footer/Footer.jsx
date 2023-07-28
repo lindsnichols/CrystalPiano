@@ -29,9 +29,9 @@ const Footer = () => (
           <p className="p__opensans">Hours</p>
       </div> */}
     </div>
-    <div className="footer__copyright">
+    {/* <div className="footer__copyright">
       <p className="p__opensans">2021 CNPiano. All Rights Reserved.</p>
-    </div>
+    </div> */}
   </div>
 );
 

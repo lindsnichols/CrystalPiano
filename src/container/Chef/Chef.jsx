@@ -14,7 +14,7 @@ const Chef = () => (
     </div>
 
     <div className="app__wrapper_info">
-      <SubHeading title="About the Teacher" />
+      <SubHeading title="ABOUT CRYSTAL" />
       {/* <h1 className="headtext_cormorant">What we believe in</h1> */}
       <div className="app__chef-content">
         {/* <div className="app__chef-content_quote">
@@ -24,25 +24,25 @@ const Chef = () => (
           </p>
         </div> */}
         <p className="p__opensans">
-          &emsp;Crystal offers private piano lessons in the Belwood
-          neighborhoood of Los Gatos.
+          Crystal offers private piano lessons in the Belwood neighborhoood of
+          Los Gatos.
         </p>
         <br></br>
         <p className="p__opensans">
-          &emsp;She loves to teach many types of music including classical, pop,
+          She loves to teach many types of music including classical, pop,
           blues, jazz & improvisation with leadsheets, and rock... along with
           the theory and technique to support it.
         </p>
         <br></br>
         <p className="p__opensans">
-          &emsp;Her wish is to help each student find a connection to one or
-          more styles of music that they will enjoy playing for life.
+          Her wish is to help each student find a connection to one or more
+          styles of music that they will enjoy playing for life.
         </p>
         <br></br>
         <br></br>
         <p className="p__opensans">
-          &emsp;Crystal is active in CA Professional Music Teacher (CAPMT) SCV,
-          the local chapter of Music Teachers' National Association (
+          Crystal is active in CA Professional Music Teacher (CAPMT) SCV, the
+          local chapter of Music Teachers' National Association (
           <a href="https://www.mtna.org/" target="_blank" rel="noreferrer">
             MTNA
           </a>
@@ -50,7 +50,7 @@ const Chef = () => (
           co-chair for MusicIN Assessments.
         </p>
         <p className="p__opensans">
-          &emsp;Eligible students that want to enroll in{" "}
+          Eligible students that want to enroll in{" "}
           <a href="https://www.mtna.org/" target="_blank" rel="noreferrer">
             assessments and evaluations
           </a>{" "}
