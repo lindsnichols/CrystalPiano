@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: flex-start;
   /* margin-top: 1rem; */
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
 }
 
 .app__footer-links_contact,
@@ -29,7 +29,7 @@
 
 .app__footer-links_logo img:first-child {
   width: 310px;
-  margin-bottom: 0.75rem;
+  margin: 2rem;
 }
 .app__footer-links_work:nth-child(2n + 1) {
   margin-bottom: 1rem;
@@ -80,13 +80,13 @@
   .app__footer-links_contact,
   .app__footer-links_logo,
   .app__footer-links_work {
-    margin: 2rem 0;
+    /* margin: 2rem 0; */
     width: 100%;
   }
 }
 @media screen and (max-width: 650px) {
   .app__footer {
-    padding: 0 0 2rem 0;
+    /* padding: 0 0 2rem 0; */
   }
 }
 @media screen and (max-width: 350px) {

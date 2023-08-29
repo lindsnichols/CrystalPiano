@@ -21,18 +21,16 @@
   /* justify-content: right; */
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1150px) {
   #lessons .app__wrapper_info {
     /* background-color: var(--color-black); */
     /* border-radius: 1rem; */
     /* flex: 1; */
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
 
     /* justify-content: right; */
   }
   #lessons .app__wrapper_img {
-    flex: 0;
-    overflow: hidden;
-    margin: 0%;
+    display: none;
   }
 }

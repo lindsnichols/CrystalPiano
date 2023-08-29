@@ -29,30 +29,32 @@ const Chef = () => (
         </p>
         <br></br>
         <p className="p__opensans">
-          She loves to teach many types of music including classical, pop,
+          She enjoys teaching many types of music including classical, pop,
           blues, jazz & improvisation with leadsheets, and rock... along with
-          the theory and technique to support it.
+          the theory and technique to support it. Her wish is to help each
+          student find a connection to styles of music that they will enjoy
+          playing for life.
         </p>
         <br></br>
         <p className="p__opensans">
-          Her wish is to help each student find a connection to one or more
-          styles of music that they will enjoy playing for life.
-        </p>
-        <br></br>
-        <br></br>
-        <p className="p__opensans">
-          Crystal is active in CA Professional Music Teacher (CAPMT) SCV, the
-          local chapter of Music Teachers' National Association (
+          Crystal is active in CA Professional Music Teacher's Santa Clara
+          Valley (
+          <a href="https://www.capmt-scv.org/" target="_blank" rel="noreferrer">
+            CAPMT SCV
+          </a>
+          ), the local chapter of Music Teachers' National Association (
           <a href="https://www.mtna.org/" target="_blank" rel="noreferrer">
             MTNA
           </a>
           ). She served as Secretary in 2021-2023, and currently serves as
-          co-chair for MusicIN Assessments.
-        </p>
-        <p className="p__opensans">
-          Eligible students that want to enroll in{" "}
-          <a href="https://www.mtna.org/" target="_blank" rel="noreferrer">
-            assessments and evaluations
+          vice-chair for MusicIN Evaluations & Artist Competition. Eligible
+          students that want to enroll in{" "}
+          <a
+            href="https://www.capmt-scv.org/student-programs#:~:text=MusicIN%20Evaluations%20%26%20Artist%20Competition"
+            target="_blank"
+            rel="noreferrer"
+          >
+            evaluations
           </a>{" "}
           are encouraged to.
         </p>

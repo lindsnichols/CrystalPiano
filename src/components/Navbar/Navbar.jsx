@@ -20,7 +20,7 @@ const Navbar = () => {
           <a href="#about">About</a>
         </li>
         <li className="p__opensans">
-          <a href="#calender">Calender</a>
+          <a href="#calender"> Studio Calendar</a>
         </li>
         <li className="p__opensans">
           <a href="#tuition">Tuition</a>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 <a href="#about">About</a>
               </li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
-                <a href="#calender">Studio Calender</a>
+                <a href="#calender">Studio Calendar</a>
               </li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#tuition">Tuition</a>

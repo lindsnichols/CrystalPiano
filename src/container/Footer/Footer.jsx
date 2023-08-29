@@ -6,7 +6,7 @@ import "./Footer.css";
 import { images } from "../../constants";
 
 const Footer = () => (
-  <div className="app__footer app__bg section__padding">
+  <div className="app__footer app__bg">
     {/* <div className="app__aboutus-overlay flex__center">
       <img src={images.pianokeysbg} alt="piano_keys_overlay" />
     </div> */}

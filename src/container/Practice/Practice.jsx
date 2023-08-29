@@ -5,7 +5,7 @@ import { images } from "../../constants";
 import "./Practice.css";
 
 const Practice = () => (
-  <div className="app__bg app__wrapper-no-column section__padding" id="lessons">
+  <div className="app__bg app__wrapper section__padding" id="lessons">
     <div className="app__wrapper_img app__wrapper_img-reverse" id="keys">
       {/* <img src={images.keys} alt="pianokeys" /> */}
     </div>
@@ -25,10 +25,9 @@ const Practice = () => (
         <SubHeading title="LESSONS" />
 
         <p className="p__opensans">
-          Weekly lessons are scheduled at a specific time for each student.
-          Students should arrive at their scheduled lesson on time, as there is
-          usually a student immediately following. Please bring all lesson
-          materials that we may use in a small tote bag.
+          Students should arrive punctually to their scheduled lesson to receive
+          the full instruction time. Please bring all lesson materials that we
+          may use in a small tote bag.
         </p>
         <br></br>
         <p className="p__opensans">
@@ -40,15 +39,15 @@ const Practice = () => (
         <SubHeading title="PRACTICE" />
 
         <p className="p__opensans">
-          Students should practice on a regular basis (5 days/ week) and must
-          have an acoustic piano (with strings, not electric) in order to study
-          with Crystal.
+          Students should practice on a regular basis (5 days / week) and need
+          an acoustic piano (with strings, not electric) in order to study with
+          Crystal.
         </p>
         <br></br>
         <p className="p__opensans">&emsp;Recommended practice times:</p>
         <ul className="p__opensans">
-          <li>Beginners & Elementary: 10-20 mins / day</li>
-          <li>Early & Mid Intermediate: 25-40 mins / day</li>
+          <li>Beginners & Elementary: 10 - 20 mins / day</li>
+          <li>Early & Mid Intermediate: 25 - 40 mins / day</li>
           <li>Advanced: 60 mins / day</li>
         </ul>
         <br></br>

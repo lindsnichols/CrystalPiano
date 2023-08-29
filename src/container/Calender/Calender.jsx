@@ -6,19 +6,18 @@ import "./Calender.css";
 
 const Calender = () => (
   <div className="app__aboutus section__padding app__wrapper" id="calender">
-    <h1 className="app__calender-h1">Studio Schedule </h1>
+    <h1 className="app__calender-h1">Studio Schedule</h1>
 
     <div className="app__aboutus-content_about">
-      {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
-      <div className="p__opensans grid_left">Lessons by Appointment </div>
-      <div className="p__opensans grid_right ">July, August 2023</div>
       <div className="p__opensans grid_left">Start of lessons</div>
       <div className="p__opensans grid_right ">September 18, 2023</div>
       <div className="p__opensans grid_left">Thanksgiving Week Vacation</div>
       <div className="p__opensans grid_right ">
         November 25 - November 29, 2023
       </div>
-      <div className="p__opensans grid_left">Christmas Vacation</div>
+      <div className="p__opensans grid_left">Holiday Recitals</div>
+      <div className="p__opensans grid_right ">Date TBD</div>
+      <div className="p__opensans grid_left">Holiday Vacation</div>
       <div className="p__opensans grid_right ">
         December 23 - January 3, 2023/4
       </div>
@@ -33,6 +32,8 @@ const Calender = () => (
       </div>
       <div className="p__opensans grid_left">Spring Break</div>
       <div className="p__opensans grid_right ">April 8 - April 12, 2024</div>
+      <div className="p__opensans grid_left">Spring Recitals</div>
+      <div className="p__opensans grid_right ">Dates TBD</div>
       <div className="p__opensans grid_left">
         Last Day of School Year Lessons
       </div>

@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 4rem 7rem;
+  padding: 6rem 7rem;
 }
 
 a:hover {
@@ -40,15 +40,15 @@ a:link {
 }
 
 .app__bg__piano-keys {
-  background: url("./assets/keys.jpg");
+  background: url("./assets/welcome.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .app__bg__welcome {
-  background: url("./assets/welcome.jpg");
+  background: url("./assets/keys.jpg");
   background-position: center;
   background-size: cover;
   /* filter: saturate(0); */
@@ -62,22 +62,14 @@ a:link {
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .app__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 100vh;
-  scroll-margin-top: 4rem;
-}
-
-.app__wrapper-no-column {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* min-height: 20vh; */
+  min-height: 10vh;
   scroll-margin-top: 4rem;
 }
 
@@ -166,6 +158,7 @@ ul {
   line-height: 22.2px;
   letter-spacing: 0.6em;
   text-transform: capitalize;
+  margin-top: 1rem;
 }
 
 .subtext__cormorant {
@@ -216,6 +209,9 @@ ul {
   .app__wrapper {
     min-height: 85vh;
   }
+  .app__wrapper {
+    min-height: 85vh;
+  }
 }
 
 @media screen and (max-width: 1150px) {
@@ -245,7 +241,7 @@ ul {
 
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
   }
 
   .p__cormorant {
