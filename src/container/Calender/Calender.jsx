@@ -16,7 +16,9 @@ const Calender = () => (
         November 25 - November 29, 2023
       </div>
       <div className="p__opensans grid_left">Holiday Recitals</div>
-      <div className="p__opensans grid_right ">Date TBD</div>
+      <div className="p__opensans grid_right ">
+        Sunday December 10th, 2 - 4 pm <br /> Sunday December 17th, 2 - 4 pm
+      </div>
       <div className="p__opensans grid_left">Holiday Vacation</div>
       <div className="p__opensans grid_right ">
         December 23 - January 3, 2023/4
