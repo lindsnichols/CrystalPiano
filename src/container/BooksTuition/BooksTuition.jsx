@@ -36,7 +36,7 @@ const BooksTuition = () => (
         <br></br> */}
         <p className="p__opensans">
           Tuition is due by the 8th day of the month, or the first lesson;
-          whichever is first. There is a $5 late fee for tuition received late.
+          whichever is last. There is a $5 late fee for tuition received late.
         </p>
         <br></br>
         <SubHeading title="BOOKS" />

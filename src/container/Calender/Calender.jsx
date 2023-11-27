@@ -15,7 +15,7 @@ const Calender = () => (
       <div className="p__opensans grid_right ">
         November 25 - November 29, 2023
       </div>
-      <div className="p__opensans grid_left">Holiday Recitals</div>
+      <div className="p__opensans grid_left">Holiday Open House Dates</div>
       <div className="p__opensans grid_right ">
         Sunday December 10th, 2 - 4 pm <br /> Sunday December 17th, 2 - 4 pm
       </div>
