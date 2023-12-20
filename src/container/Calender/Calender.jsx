@@ -21,7 +21,7 @@ const Calender = () => (
       </div>
       <div className="p__opensans grid_left">Holiday Vacation</div>
       <div className="p__opensans grid_right ">
-        December 23 - January 3, 2023/4
+        December 18 - January 3, 2023/4
       </div>
       {/* </div>
       <SubHeading title="2024" />
